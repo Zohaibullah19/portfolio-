@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="#home">
+      Zohaib Ullah
+    </a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapsibleNavbar"
+      aria-controls="collapsibleNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+
+        
+
+          <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#"
+     role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Projects
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#projects">All Projects</a></li>
+    <li><a class="dropdown-item" href="#projects">ShopHub</a></li>
+    <li><a class="dropdown-item" href="#projects">Social Sphere</a></li>
+    <li><a class="dropdown-item" href="#projects">Skillorithm</a></li>
+  </ul>
+</li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="mt-4 p-5 bg-dark text-white rounded">
+  <div class="d-flex justify-content-between align-items-center">
+
+    <!-- Left Side: Name and Description -->
+    <div>
+      <h1>I'm Zohaib Ullah</h1>
+      <p>
+        Full-Stack Developer | Web Developer | App Developer
+      </p>
+    </div>
+
+    <!-- Right Side: Profile Photo -->
+    <img
+      src="images/profile.jpeg"
+      alt="Zohaib Ullah"
+      class="rounded-circle border border-3 border-white ms-4"
+      style="
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        flex-shrink: 0;
+      "
+    >
+
+  </div>
+</div>
+
+<!-- About Me Section -->
+<section id="about" class="py-5">
+  <div class="container py-4">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">About Me</h2>
+      <p class="text-secondary">
+        Get to know me better
+      </p>
+    </div>
+
+    <div class="row align-items-center g-4">
+
+      <!-- Left Column: Introduction -->
+      <div class="col-lg-7">
+        <h3 class="fw-bold mb-3">
+          Hello! I'm Zohaib Ullah
+        </h3>
+
+        <p class="text-secondary">
+          I'm a Software Engineering student at City University
+          of Science and Information Technology, Peshawar.
+          I'm interested in web development, programming, and
+          building useful software applications.
+        </p>
+
+        <p class="text-secondary">
+          I'm continuously improving my technical skills through
+          practical projects and learning new technologies.
+          My goal is to become a skilled software developer and
+          create solutions that make a positive impact.
+        </p>
+
+        <a href="#contact" class="btn btn-primary mt-2">
+          Get In Touch
+        </a>
+      </div>
+
+      <!-- Right Column: Information Card -->
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h4 class="card-title fw-bold mb-4">
+              Personal Information
+            </h4>
+
+            <p>
+              <strong>Name:</strong> Zohaib Ullah
+            </p>
+
+            <p>
+              <strong>Education:</strong> BS Software Engineering
+            </p>
+
+            <p>
+              <strong>University:</strong> City University, Peshawar
+            </p>
+
+            <p>
+              <strong>Interests:</strong> Web Development,
+              Programming, Software Projects
+            </p>
+
+            <p class="mb-0">
+              <strong>Current Focus:</strong> Improving my
+              development skills through practical work
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="py-5 bg-light">
+  <div class="container py-4">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Education</h2>
+      <p class="text-secondary">
+        My academic journey and qualifications
+      </p>
+    </div>
+
+    <!-- Education Cards -->
+    <div class="row g-4">
+
+      <!-- University -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <span class="badge bg-primary mb-3">
+              Currently Studying
+            </span>
+
+            <h4 class="card-title fw-bold">
+              BS Software Engineering
+            </h4>
+
+            <h6 class="text-primary mt-3">
+              City University of Science and
+              Information Technology
+            </h6>
+
+            <p class="text-secondary mt-3 mb-2">
+              Peshawar, Pakistan
+            </p>
+
+            <p class="mb-0">
+              <strong>Duration:</strong> 2024 – Present
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Intermediate -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <span class="badge bg-success mb-3">
+              Completed
+            </span>
+
+            <h4 class="card-title fw-bold">
+              F.Sc Medical
+            </h4>
+
+            <h6 class="text-primary mt-3">
+              Kaitho Public School and College
+            </h6>
+
+            <p class="text-secondary mt-3 mb-2">
+              Spinwam, Pakistan
+            </p>
+
+            <p class="mb-2">
+              <strong>Year:</strong> 2024
+            </p>
+
+            <p class="mb-0">
+              <strong>Marks:</strong> 899 / 1100
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Matriculation -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <span class="badge bg-success mb-3">
+              Completed
+            </span>
+
+            <h4 class="card-title fw-bold">
+              Matriculation
+            </h4>
+
+            <h6 class="text-primary mt-3">
+              Oxford Science School and College
+            </h6>
+
+            <p class="text-secondary mt-3 mb-2">
+              Chokara, Karak, Pakistan
+            </p>
+
+            <p class="mb-2">
+              <strong>Year:</strong> 2021
+            </p>
+
+            <p class="mb-0">
+              <strong>Marks:</strong> 938 / 1100
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container py-4">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Skills</h2>
+      <p class="text-secondary">
+        Technologies and tools I use to build real-world applications
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Frontend Development -->
+      <div class="col-lg-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-3">
+              <i class="bi bi-code-slash text-primary me-2"></i>
+              Frontend Development
+            </h4>
+
+            <p class="text-secondary">
+              Building responsive, interactive, and user-friendly
+              web interfaces.
+            </p>
+
+            <span class="badge bg-primary p-2 me-1 mb-2">HTML5</span>
+            <span class="badge bg-primary p-2 me-1 mb-2">CSS3</span>
+            <span class="badge bg-primary p-2 me-1 mb-2">JavaScript</span>
+            <span class="badge bg-primary p-2 me-1 mb-2">Bootstrap 5</span>
+            <span class="badge bg-primary p-2 me-1 mb-2">Responsive Design</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend Development -->
+      <div class="col-lg-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-3">
+              <i class="bi bi-server text-success me-2"></i>
+              Backend Development
+            </h4>
+
+            <p class="text-secondary">
+              Developing application logic, APIs, authentication,
+              and server-side functionality.
+            </p>
+
+            <span class="badge bg-success p-2 me-1 mb-2">Node.js</span>
+            <span class="badge bg-success p-2 me-1 mb-2">Express.js</span>
+            <span class="badge bg-success p-2 me-1 mb-2">REST APIs</span>
+            <span class="badge bg-success p-2 me-1 mb-2">Authentication</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Database Management -->
+      <div class="col-lg-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-3">
+              <i class="bi bi-database text-info me-2"></i>
+              Database Management
+            </h4>
+
+            <p class="text-secondary">
+              Organizing application data and managing database
+              operations.
+            </p>
+
+            <span class="badge bg-info text-dark p-2 me-1 mb-2">MongoDB</span>
+            <span class="badge bg-info text-dark p-2 me-1 mb-2">SQL</span>
+            <span class="badge bg-info text-dark p-2 me-1 mb-2">CRUD Operations</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Programming -->
+      <div class="col-lg-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-3">
+              <i class="bi bi-terminal text-danger me-2"></i>
+              Programming
+            </h4>
+
+            <p class="text-secondary">
+              Strengthening programming fundamentals and
+              problem-solving skills.
+            </p>
+
+            <span class="badge bg-danger p-2 me-1 mb-2">C++</span>
+            <span class="badge bg-danger p-2 me-1 mb-2">Python</span>
+            <span class="badge bg-danger p-2 me-1 mb-2">Assembly Language</span>
+            <span class="badge bg-danger p-2 me-1 mb-2">OOP</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Workflow -->
+      <div class="col-lg-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-3">
+              <i class="bi bi-tools text-warning me-2"></i>
+              Tools & Workflow
+            </h4>
+
+            <p class="text-secondary">
+              Managing code, collaborating on projects, and
+              maintaining development workflows.
+            </p>
+
+            <span class="badge bg-dark p-2 me-1 mb-2">Git</span>
+            <span class="badge bg-dark p-2 me-1 mb-2">GitHub</span>
+            <span class="badge bg-dark p-2 me-1 mb-2">VS Code</span>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Full-Stack Development -->
+      <div class="col-lg-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-3">
+              <i class="bi bi-layers text-primary me-2"></i>
+              Full-Stack Development
+            </h4>
+
+            <p class="text-secondary">
+              Applying frontend, backend, and database skills
+              to develop complete web applications.
+            </p>
+
+            <span class="badge bg-primary p-2 me-1 mb-2">E-commerce</span>
+            <span class="badge bg-primary p-2 me-1 mb-2">Social Applications</span>
+            <span class="badge bg-primary p-2 me-1 mb-2">Educational Platforms</span>
+            <span class="badge bg-primary p-2 me-1 mb-2">Web Application Development</span>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Projects</h2>
+      <p class="text-muted">
+        Here are some projects I have developed.
+      </p>
+      <hr class="mx-auto border-primary border-3 opacity-100"
+          style="width: 80px;">
+    </div>
+
+    <!-- Project Cards -->
+    <div class="row g-4">
+
+      <!-- Skillorithm -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <div class="mb-3">
+              <i class="bi bi-mortarboard-fill text-primary fs-1"></i>
+            </div>
+
+            <h4 class="card-title fw-bold">Skillorithm</h4>
+
+            <p class="card-text text-muted">
+              A learning platform featuring computer science courses
+              to help students develop their technical skills and
+              expand their knowledge.
+            </p>
+
+            <div class="mb-3">
+              <span class="badge bg-primary me-1">Education</span>
+              <span class="badge bg-secondary">Web Development</span>
+            </div>
+
+            <a href="https://github.com/Zohaibullah19/skillorithm" class="btn btn-outline-primary">
+              Repository
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ShopHub -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <div class="mb-3">
+              <i class="bi bi-bag-fill text-success fs-1"></i>
+            </div>
+
+            <h4 class="card-title fw-bold">ShopHub</h4>
+
+            <p class="card-text text-muted">
+              An e-commerce platform designed to provide customers
+              with a convenient online shopping experience and an
+              organized product catalog.
+            </p>
+
+            <div class="mb-3">
+              <span class="badge bg-success me-1">E-commerce</span>
+              <span class="badge bg-secondary">Full Stack</span>
+            </div>
+
+            <a href="https://github.com/Zohaibullah19/CodeAlfa-Task1-EcommerceStore" class="btn btn-outline-success">
+              Repository
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Sphere -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <div class="mb-3">
+              <i class="bi bi-people-fill text-info fs-1"></i>
+            </div>
+
+            <h4 class="card-title fw-bold">Social Sphere</h4>
+
+            <p class="card-text text-muted">
+              A social networking application inspired by platforms
+              like Facebook, designed to connect users and support
+              online social interaction.
+            </p>
+
+            <div class="mb-3">
+              <span class="badge bg-info text-dark me-1">Social Media</span>
+              <span class="badge bg-secondary">Full Stack</span>
+            </div>
+
+            <a href="https://github.com/Zohaibullah19/CodeAlfa-Task2-SocialSphere" class="btn btn-outline-info">
+              Repository
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-5 bg-light">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Experience & Certifications</h2>
+      <p class="text-muted">
+        My professional learning journey and completed internships.
+      </p>
+      <hr class="mx-auto border-primary border-3 opacity-100"
+          style="width: 80px;">
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Code Alfa -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <div class="mb-3">
+              <i class="bi bi-code-slash text-primary fs-1"></i>
+            </div>
+
+            <span class="badge bg-primary mb-3">Remote Internship</span>
+
+            <h4 class="fw-bold">Full Stack Development Intern</h4>
+            <h6 class="text-primary mb-3">Code Alfa</h6>
+
+            <p class="text-muted">
+              Completed a remote internship focused on full stack
+              development, gaining practical experience in building
+              web applications and understanding frontend and backend
+              development workflows.
+            </p>
+
+            <p class="small text-muted mb-0">
+              <i class="bi bi-geo-alt me-1"></i> Remote
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arch Technologies -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <div class="mb-3">
+              <i class="bi bi-globe text-success fs-1"></i>
+            </div>
+
+            <span class="badge bg-success mb-3">Remote Internship</span>
+
+            <h4 class="fw-bold">Web Development Intern</h4>
+            <h6 class="text-success mb-3">Arch Technologies</h6>
+
+            <p class="text-muted">
+              Completed a remote internship in web development,
+              strengthening practical knowledge of website development,
+              responsive layouts, and modern web technologies.
+            </p>
+
+            <p class="small text-muted mb-0">
+              <i class="bi bi-geo-alt me-1"></i> Remote
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Optimus Automate -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <div class="mb-3">
+              <i class="bi bi-phone text-info fs-1"></i>
+            </div>
+
+            <span class="badge bg-info text-dark mb-3">
+              Remote Internship
+            </span>
+
+            <h4 class="fw-bold">App Development Intern</h4>
+            <h6 class="text-info mb-3">Optimus Automate</h6>
+
+            <p class="text-muted">
+              Completed a remote internship focused on application
+              development, learning about app development workflows,
+              application functionality, and software development
+              practices.
+            </p>
+
+            <p class="small text-muted mb-0">
+              <i class="bi bi-geo-alt me-1"></i> Remote
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+<!-- Certifications Heading -->
+<div id="certifications" class="text-center mt-5 mb-4">
+  <h3 class="fw-bold">My Certifications</h3>
+  <p class="text-muted">
+    Certificates earned through my completed internships.
+  </p>
+</div>
+
+<div class="row justify-content-center g-4">
+
+  <!-- Certification 1: Code Alfa -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+
+      <a href="images/Certificates/codealfa.jpg"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="images/Certificates/codealfa.jpg"
+             class="card-img-top"
+             alt="Code Alfa Full Stack Development internship certificate"
+             style="height: 240px; object-fit: contain; background-color: #f8f9fa; padding: 10px;">
+      </a>
+
+      <div class="card-body p-4 text-center">
+        <h5 class="fw-bold">Full Stack Development</h5>
+
+        <p class="text-muted mb-2">Code Alfa</p>
+
+        <p class="small text-muted">
+          Internship Certificate
+        </p>
+
+        <a href="images/Certificates/codealfa.jpg"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn btn-outline-primary btn-sm">
+          <i class="bi bi-eye me-1"></i> View Certificate
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Certification 2: Arch Technologies -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+
+      <a href="images/Certificates/Arch.jpg"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="images/Certificates/Arch.jpg"
+             class="card-img-top"
+             alt="Arch Technologies Web Development internship certificate"
+             style="height: 240px; object-fit: contain; background-color: #f8f9fa; padding: 10px;">
+      </a>
+
+      <div class="card-body p-4 text-center">
+        <h5 class="fw-bold">Web Development</h5>
+
+        <p class="text-muted mb-2">Arch Technologies</p>
+
+        <p class="small text-muted">
+          Internship Certificate
+        </p>
+
+        <a href="images/Certificates/Arch.jpg"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn btn-outline-success btn-sm">
+          <i class="bi bi-eye me-1"></i> View Certificate
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Certification 3: Optimus Automate -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+
+      <a href="images/Certificates/optimusautomate.jpg"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="images/Certificates/optimusautomate.jpg"
+             class="card-img-top"
+             alt="Optimus Automate App Development internship certificate"
+             style="height: 240px; object-fit: contain; background-color: #f8f9fa; padding: 10px;">
+      </a>
+
+      <div class="card-body p-4 text-center">
+        <h5 class="fw-bold">App Development</h5>
+
+        <p class="text-muted mb-2">Optimus Automate</p>
+
+        <p class="small text-muted">
+          Internship Certificate
+        </p>
+
+        <a href="images/Certificates/optimusautomate.jpg"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn btn-outline-info btn-sm">
+          <i class="bi bi-eye me-1"></i> View Certificate
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Contact Me</h2>
+      
+      <hr class="mx-auto border-primary border-3 opacity-100"
+          style="width: 80px;">
+    </div>
+
+    <div class="row g-5">
+
+      <!-- Contact Information -->
+      <div class="col-lg-5">
+
+        <h4 class="fw-bold mb-4">Get in Touch</h4>
+
+        <!-- Email -->
+        <div class="d-flex align-items-center mb-4">
+          <div class="bg-primary text-white rounded p-3 me-3">
+            <i class="bi bi-envelope-fill fs-4"></i>
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Email</h6>
+            <a href="mailto:engrzohaibullah@gmail.com"
+               class="text-decoration-none text-muted">
+              engrzohaibullah@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="d-flex align-items-center mb-4">
+          <div class="bg-success text-white rounded p-3 me-3">
+            <i class="bi bi-telephone-fill fs-4"></i>
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Phone</h6>
+            <a href="tel:+923285604960"
+               class="text-decoration-none text-muted">
+              +92 328 5604960
+            </a>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="d-flex align-items-center mb-4">
+          <div class="bg-dark text-white rounded p-3 me-3">
+            <i class="bi bi-github fs-4"></i>
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">GitHub</h6>
+            <a href="https://github.com/Zohaibullah19/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-decoration-none text-muted">
+              github.com/Zohaibullah19
+            </a>
+          </div>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="d-flex align-items-center mb-4">
+          <div class="bg-primary text-white rounded p-3 me-3">
+            <i class="bi bi-linkedin fs-4"></i>
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">LinkedIn</h6>
+            <a href="https://www.linkedin.com/in/zohaib-ullah-224841413/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-decoration-none text-muted">
+              Zohaib Ullah on LinkedIn
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="card shadow-sm border-0">
+          <div class="card-body p-4 p-md-5">
+
+            <h4 class="fw-bold mb-4">Send Me a Message</h4>
+
+            <form action="mailto:engrzohaibullah@gmail.com"
+                  method="post"
+                  enctype="text/plain">
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name"
+                       name="Name" placeholder="Enter your name"
+                       required>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email"
+                       name="Email" placeholder="Enter your email"
+                       required>
+              </div>
+
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject"
+                       name="Subject" placeholder="Enter message subject"
+                       required>
+              </div>
+
+              <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message"
+                          name="Message" rows="5"
+                          placeholder="Write your message here..."
+                          required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary px-4">
+                <i class="bi bi-send-fill me-2"></i>Send Message
+              </button>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="text-center bg-body-tertiary">
+
+  
+ 
+<!-- Footer -->
+<footer class="bg-body-tertiary text-center">
+
+  <!-- Social Media Icons -->
+  <div class="container pt-4 pb-3">
+    <a href="https://github.com/Zohaibullah19/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn-outline-dark btn-floating m-2 rounded-circle"
+       aria-label="GitHub">
+      <i class="bi bi-github fs-4"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/zohaib-ullah-224841413/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn-outline-primary btn-floating m-2 rounded-circle"
+       aria-label="LinkedIn">
+      <i class="bi bi-linkedin fs-4"></i>
+    </a>
+
+    <a href="mailto:engrzohaibullah@gmail.com"
+       class="btn btn-outline-danger btn-floating m-2 rounded-circle"
+       aria-label="Email">
+      <i class="bi bi-envelope-fill fs-4"></i>
+    </a>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3"
+       style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2026 Copyright:
+    <a href="mailto:engrzohaibullah@gmail.com"
+       class="text-body fw-bold text-decoration-none">
+      Zohaib Ullah
+    </a>
+
+    <p class="mb-0 mt-2">
+      Web Engineering Lab Assignment
+    </p>
+  </div>
+
+</footer>
+
+
+</body>
+</html>
+
+
